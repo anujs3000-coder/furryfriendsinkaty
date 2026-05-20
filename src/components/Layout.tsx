@@ -7,7 +7,7 @@ const FORM_URL = "https://forms.gle/2tX2QvnewiUiJLBh9";
 const nav = [
   { to: "/", label: "Home" },
   { to: "/services", label: "Services" },
-  { to: "/meet", label: "Meet Diya & Pari" },
+  { to: "/meet", label: "Meet Pari & Diya" },
   { to: "/reviews", label: "Reviews" },
   { to: "/safety", label: "Safety & Care" },
   { to: "/request", label: "Request a Visit" },
@@ -119,7 +119,7 @@ function Footer() {
           </div>
           <p className="mt-3 text-cream/80 text-sm leading-relaxed">
             Loving, local pet care in Katy, TX 77494 and nearby neighborhoods.
-            Made with love by Diya &amp; Pari. 🐾
+            Made with love by Pari &amp; Diya. 🐾
           </p>
         </div>
         <div className="text-sm">

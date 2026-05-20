@@ -63,7 +63,7 @@ function Home() {
             </h1>
             <p className="mt-5 text-lg md:text-xl text-charcoal/80 leading-relaxed">
               Dog walks, cat check-ins, drop-in visits, playtime, and vacation pet care from{" "}
-              <span className="font-semibold text-deep-green">Diya &amp; Pari</span> — two local
+              <span className="font-semibold text-deep-green">Pari &amp; Diya</span> — two local
               sisters who treat every pet like family.
             </p>
             <div className="mt-7 flex flex-wrap gap-3">
@@ -83,7 +83,7 @@ function Home() {
           <div className="rounded-[2rem] bg-sage/20 p-3 shadow-xl">
             <img
               src={heroImg}
-              alt="Diya and Pari with pets"
+              alt="Pari and Diya with pets"
               width={3200}
               height={2000}
               className="block w-full aspect-[8/5] rounded-[1.5rem] object-cover object-center"
@@ -140,7 +140,7 @@ function Home() {
           <div className="rounded-[2rem] bg-coral/10 p-3 shadow-lg">
             <img
               src={sistersImg}
-              alt="Diya and Pari with pets"
+              alt="Pari and Diya with pets"
               loading="lazy"
               width={3200}
               height={2000}
@@ -149,7 +149,7 @@ function Home() {
           </div>
           <div>
             <p className="text-xs font-bold tracking-[0.18em] uppercase text-coral">The sisters</p>
-            <h2 className="mt-3 text-3xl md:text-4xl font-semibold">Meet Diya &amp; Pari</h2>
+            <h2 className="mt-3 text-3xl md:text-4xl font-semibold">Meet Pari &amp; Diya</h2>
             <p className="mt-4 text-lg text-charcoal/80 leading-relaxed">
               We're two sisters from Katy who love animals and wanted to create a simple,
               reliable pet care service for nearby families. Whether your pet needs a walk,
@@ -158,7 +158,7 @@ function Home() {
             </p>
             <div className="mt-6">
               <Link to="/meet" className="inline-flex items-center gap-2 text-deep-green font-semibold border-b-2 border-coral pb-0.5 hover:gap-3 transition-all">
-                Meet Diya &amp; Pari →
+                Meet Pari &amp; Diya →
               </Link>
             </div>
           </div>

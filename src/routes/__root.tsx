@@ -77,10 +77,10 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       {
         name: "description",
         content:
-          "Dog walks, cat check-ins, drop-in visits, playtime, and vacation pet care in Katy, TX 77494 and nearby neighborhoods. Founded by Diya & Pari.",
+          "Dog walks, cat check-ins, drop-in visits, playtime, and vacation pet care in Katy, TX 77494 and nearby neighborhoods. Founded by Pari & Diya.",
       },
       { property: "og:title", content: "Furry Friends Co. | Pet Care in Katy, TX" },
-      { property: "og:description", content: "Loving, local pet care from Diya & Pari." },
+      { property: "og:description", content: "Loving, local pet care from Pari & Diya." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
     ],

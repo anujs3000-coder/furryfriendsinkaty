@@ -8,7 +8,7 @@ export const Route = createFileRoute("/meet")({
   component: Meet,
   head: () => ({
     meta: [
-      { title: "Meet Diya & Pari | Furry Friends Co." },
+      { title: "Meet Pari & Diya | Furry Friends Co." },
       { name: "description", content: "Two sisters from Katy, TX who love animals and care for pets like family." },
     ],
   }),
@@ -29,7 +29,7 @@ function Meet() {
           <div className="order-2 md:order-1 rounded-[2rem] bg-sage/20 p-3 shadow-xl">
             <img
               src={sistersImg}
-              alt="Diya and Pari with pets"
+              alt="Pari and Diya with pets"
               width={3200}
               height={2000}
               className="block w-full aspect-[8/5] rounded-[1.5rem] object-cover object-center"
@@ -37,7 +37,7 @@ function Meet() {
           </div>
           <div className="order-1 md:order-2">
             <p className="text-xs font-bold tracking-[0.18em] uppercase text-coral">The team</p>
-            <h1 className="mt-3 text-4xl md:text-6xl font-semibold leading-tight">Meet Diya &amp; Pari</h1>
+            <h1 className="mt-3 text-4xl md:text-6xl font-semibold leading-tight">Meet Pari &amp; Diya</h1>
             <p className="mt-5 text-lg text-charcoal/80 leading-relaxed">
               Two sisters from Katy who love animals and care for pets like family.
             </p>
@@ -49,7 +49,7 @@ function Meet() {
         <div className="max-w-2xl mx-auto text-center">
           <SectionHeader title="Our Story" />
           <div className="space-y-5 text-lg text-charcoal/80 leading-relaxed text-left">
-            <p>Hi, we're Diya and Pari — sisters, animal lovers, and proud Katy locals.</p>
+            <p>Hi, we're Pari and Diya — sisters, animal lovers, and proud Katy locals.</p>
             <p>
               Furry Friends Co. started because we love spending time with pets and wanted to help
               nearby families who need simple, reliable pet care. What began as helping friends and

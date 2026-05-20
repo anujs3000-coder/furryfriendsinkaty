@@ -8,13 +8,13 @@ export const Route = createFileRoute("/reviews")({
   head: () => ({
     meta: [
       { title: "Pet Care Reviews | Furry Friends Co." },
-      { name: "description", content: "Kind words from Katy families who have trusted Diya & Pari with their pets." },
+      { name: "description", content: "Kind words from Katy families who have trusted Pari & Diya with their pets." },
     ],
   }),
 });
 
 const reviews = [
-  { quote: "Diya and Pari were wonderful with our dog. We loved getting updates and knew he was in good hands.", name: "[First Name]", pet: "[Pet Name]" },
+  { quote: "Pari and Diya were wonderful with our dog. We loved getting updates and knew he was in good hands.", name: "[First Name]", pet: "[Pet Name]" },
   { quote: "They were reliable, caring, and easy to communicate with. Our cat was happy and relaxed when we got home.", name: "[First Name]", pet: "[Pet Name]" },
   { quote: "The photo updates made a big difference while we were away. We would definitely ask them again.", name: "[First Name]", pet: "[Pet Name]" },
 ];
@@ -27,7 +27,7 @@ function Reviews() {
           <p className="text-xs font-bold tracking-[0.18em] uppercase text-coral">Reviews</p>
           <h1 className="mt-3 text-4xl md:text-6xl font-semibold leading-tight">Happy Pets, Happy Families</h1>
           <p className="mt-5 text-lg text-charcoal/80 leading-relaxed">
-            Kind words from families who have trusted Diya &amp; Pari with their pets.
+            Kind words from families who have trusted Pari &amp; Diya with their pets.
           </p>
         </div>
       </Section>
@@ -55,7 +55,7 @@ function Reviews() {
         <div className="max-w-3xl mx-auto text-center">
           <SectionHeader title="Have We Helped Care for Your Pet?" />
           <p className="-mt-6 text-lg text-charcoal/80 leading-relaxed">
-            If Diya and Pari have cared for your pet before, we would love to include your kind
+            If Pari and Diya have cared for your pet before, we would love to include your kind
             words on our website.
           </p>
           <p className="mt-3 text-sm italic text-charcoal/65">
