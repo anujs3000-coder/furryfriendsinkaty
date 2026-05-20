@@ -80,14 +80,13 @@ function Home() {
               <span>No Aggressive Pets</span>
             </div>
           </div>
-          <div className="relative">
-            <div className="absolute -inset-3 bg-sage/30 rounded-[2rem] rotate-2" aria-hidden />
+          <div className="rounded-[2rem] bg-sage/20 p-3 shadow-xl">
             <img
               src={heroImg}
-              alt="A smiling sitter petting a happy golden retriever on a Katy sidewalk"
-              width={1600}
-              height={1024}
-              className="relative rounded-[2rem] shadow-xl object-cover aspect-[4/3] w-full"
+              alt="Diya and Pari with pets"
+              width={3200}
+              height={2000}
+              className="block w-full aspect-[8/5] rounded-[1.5rem] object-cover object-center"
             />
           </div>
         </div>
@@ -138,9 +137,15 @@ function Home() {
       {/* Meet preview */}
       <Section bg="cream">
         <div className="grid md:grid-cols-2 gap-10 lg:gap-16 items-center">
-          <div className="relative">
-            <div className="absolute -inset-3 bg-coral/15 rounded-[2rem] -rotate-2" aria-hidden />
-            <img src={sistersImg} alt="Diya and Pari with a happy dog" loading="lazy" width={1400} height={1024} className="relative rounded-[2rem] shadow-lg aspect-[4/3] object-cover w-full" />
+          <div className="rounded-[2rem] bg-coral/10 p-3 shadow-lg">
+            <img
+              src={sistersImg}
+              alt="Diya and Pari with pets"
+              loading="lazy"
+              width={3200}
+              height={2000}
+              className="block w-full aspect-[8/5] rounded-[1.5rem] object-cover object-center"
+            />
           </div>
           <div>
             <p className="text-xs font-bold tracking-[0.18em] uppercase text-coral">The sisters</p>

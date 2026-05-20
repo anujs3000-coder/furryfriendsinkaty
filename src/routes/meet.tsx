@@ -26,9 +26,14 @@ function Meet() {
     <>
       <Section bg="cream" size="lg">
         <div className="grid md:grid-cols-2 gap-10 lg:gap-14 items-center">
-          <div className="relative order-2 md:order-1">
-            <div className="absolute -inset-3 bg-sage/30 rounded-[2rem] -rotate-2" aria-hidden />
-            <img src={sistersImg} alt="Diya and Pari outdoors with a happy dog" width={1400} height={1024} className="relative rounded-[2rem] shadow-xl object-cover aspect-[4/3] w-full" />
+          <div className="order-2 md:order-1 rounded-[2rem] bg-sage/20 p-3 shadow-xl">
+            <img
+              src={sistersImg}
+              alt="Diya and Pari with pets"
+              width={3200}
+              height={2000}
+              className="block w-full aspect-[8/5] rounded-[1.5rem] object-cover object-center"
+            />
           </div>
           <div className="order-1 md:order-2">
             <p className="text-xs font-bold tracking-[0.18em] uppercase text-coral">The team</p>
@@ -83,9 +88,15 @@ function Meet() {
               their pet is okay. That's what Furry Friends Co. is all about.
             </p>
           </div>
-          <div className="relative">
-            <div className="absolute -inset-3 bg-coral/15 rounded-[2rem] rotate-2" aria-hidden />
-            <img src={catImg} alt="A gentle moment with a cat" loading="lazy" width={1024} height={1024} className="relative rounded-[2rem] shadow-lg object-cover aspect-[4/3] w-full" />
+          <div className="rounded-[2rem] bg-coral/10 p-3 shadow-lg">
+            <img
+              src={catImg}
+              alt="A gentle moment with a cat"
+              loading="lazy"
+              width={1024}
+              height={1024}
+              className="block w-full rounded-[1.5rem] object-cover object-center"
+            />
           </div>
         </div>
       </Section>
