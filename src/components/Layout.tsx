@@ -2,7 +2,7 @@ import { Link, Outlet, useRouterState } from "@tanstack/react-router";
 import { useState } from "react";
 import logo from "@/assets/logo.png";
 
-const FORM_URL = "https://forms.gle/your-form-link";
+const FORM_URL = "https://forms.gle/2tX2QvnewiUiJLBh9";
 
 const nav = [
   { to: "/", label: "Home" },
